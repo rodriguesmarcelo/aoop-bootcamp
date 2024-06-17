@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="sys_db_object" version="2" view="teste">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:27900e83c3713000bac1addbdfba8fb6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 13:55:10</sys_created_on>
+            <sys_id>78d6ef1293f286100d95b4697bba107a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 13:55:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:17a52313bf1030001875647fcf0739d4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 13:55:10</sys_created_on>
+            <sys_id>70d6235293f286100d95b4697bba10d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 13:55:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>v_index_creator.table</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 13:55:10</sys_created_on>
+            <sys_id>74d6235293f286100d95b4697bba10d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 13:55:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:a81e90f153311200efd6cbaac2dc3451</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 13:55:10</sys_created_on>
+            <sys_id>78d6235293f286100d95b4697bba10d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 13:55:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Table - teste</calculated_name>
+            <filter/>
+            <name>sys_db_object</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 13:55:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cd6ef1293f286100d95b4697bba1079</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Table - teste</sys_name>
+            <sys_package display_value="Inventory Management" source="x_1421192_inventor">2ef3dccd9336c2100d95b4697bba1023</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
+            <sys_update_name>sys_ui_related_sys_db_object_teste</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 13:55:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="teste" name="teste">d2b62bde93b286100d95b4697bba1020</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</application>
+        <file_path/>
+        <instance_id>b8555d6e1b5efd147d9d2f8dee4bcbe0</instance_id>
+        <instance_name>dev206780</instance_name>
+        <name>sys_ui_related_sys_db_object_teste</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="sys_db_object" version="2" view="teste"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id><order_by/><position>0</position><related_list>REL:27900e83c3713000bac1addbdfba8fb6</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-17 13:55:10</sys_created_on><sys_id>78d6ef1293f286100d95b4697bba107a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-17 13:55:10</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id><order_by/><position>1</position><related_list>REL:17a52313bf1030001875647fcf0739d4</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-17 13:55:10</sys_created_on><sys_id>70d6235293f286100d95b4697bba10d7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-17 13:55:10</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id><order_by/><position>2</position><related_list>v_index_creator.table</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-17 13:55:10</sys_created_on><sys_id>74d6235293f286100d95b4697bba10d7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-17 13:55:10</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Table - teste" name="sys_db_object" related_list="NULL" sys_domain="global" view="d2b62bde93b286100d95b4697bba1020">3cd6ef1293f286100d95b4697bba1079</list_id><order_by/><position>3</position><related_list>REL:a81e90f153311200efd6cbaac2dc3451</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-17 13:55:10</sys_created_on><sys_id>78d6235293f286100d95b4697bba10d7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-17 13:55:10</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Table - teste</calculated_name><filter/><name>sys_db_object</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-17 13:55:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3cd6ef1293f286100d95b4697bba1079</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Table - teste</sys_name><sys_package display_value="Inventory Management" source="x_1421192_inventor">2ef3dccd9336c2100d95b4697bba1023</sys_package><sys_policy/><sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope><sys_update_name>sys_ui_related_sys_db_object_teste</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-17 13:55:10</sys_updated_on><sys_user/><view display_value="teste" name="teste">d2b62bde93b286100d95b4697bba1020</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-635221312</payload_hash>
+        <record_name>Table</record_name>
+        <reverted_from/>
+        <source>cea42b5e93b286100d95b4697bba1096</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 13:55:10</sys_created_on>
+        <sys_id>78d6235293f286100d95b4697bba10d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190267af47b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 13:55:10</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>fcd62352f6f286107d9071cf5a2fd5d8</update_guid>
+        <update_guid_history>fcd62352f6f286107d9071cf5a2fd5d8:-635221312,69c6ef1221f28610667acb2795116f71:874329772,10c6af12fcf286101f3915d896bd4df4:-124712648,12b6af1221f286104d0f1d3a64580d44:1436367030</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 14:07:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>8838a786a3a04b72978f092510a758d1</sys_id>
+        <sys_metadata>3cd6ef1293f286100d95b4697bba1079</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table - teste</sys_name>
+        <sys_package display_value="Inventory Management" source="x_1421192_inventor">2ef3dccd9336c2100d95b4697bba1023</sys_package>
+        <sys_parent display_value="Sys Db Object">c01c21128d30021087de63ac7f1f0099</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
+        <sys_scope_delete display_value="">22c58d1ee1f942f8b2dfd373251ed2c4</sys_scope_delete>
+        <sys_update_name>sys_ui_related_sys_db_object_teste</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_sys_db_object_teste">78d6235293f286100d95b4697bba10d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 14:07:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
