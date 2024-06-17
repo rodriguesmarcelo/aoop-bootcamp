@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3854d0059376c2100d95b4697bba1063" extends="task" label="Product Request" max_length="40" name="x_1421192_inventor_product_request" type="collection">
+        <element label="Product" max_length="32" name="product" reference="x_1421192_inventor_product" type="reference"/>
+        <element label="Delivered" max_length="40" name="delivered" type="boolean"/>
+    </element>
+</database>

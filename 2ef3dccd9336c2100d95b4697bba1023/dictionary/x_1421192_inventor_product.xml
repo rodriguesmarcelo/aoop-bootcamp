@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1744dc059336c2100d95b4697bba10c7" label="Product" max_length="40" name="x_1421192_inventor_product" type="collection">
+        <element display="true" label="Product Name" max_length="40" name="product_name" type="string"/>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
+    </element>
+</database>
