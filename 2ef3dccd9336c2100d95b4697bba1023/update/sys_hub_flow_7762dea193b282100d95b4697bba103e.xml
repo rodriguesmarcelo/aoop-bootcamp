@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5012000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=247347000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>product_request_created</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Product Request Record","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"reference","base_type":"reference","usedInstances":{"70be2201-66d6-48b3-b06c-9193ddec3a86":["record"],"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["record"],"0a067b7d-ba9d-471a-941b-2941c27b0c49":["record"],"985210d3-ba94-4001-b35b-9cc989bbf924":["record"],"35655f59-97d7-44b9-84e5-da0a28742fff":["record"],"672926f2-4092-47c5-bdc1-163ba356a623":["record"]},"attributes":{}},{"name":"{{static.dbef5d11937a02100d95b4697bba10a7}}","label":"Analistas","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"{{static.c42fdddd933a02100d95b4697bba1033}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"48a8ca15-0ade-4b1c-85f7-e30010059489":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Product Request Table","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.product.sys_id","label":"Trigger - Record Created➛Product Request Record➛Product➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1421192_inventor_product","column_name":"sys_id","usedInstances":{"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22":["conditions"]}},{"name":"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22.Record","label":"10 - Look Up Record➛Product Record","reference":"x_1421192_inventor_product","reference_display":"Product","type":"reference","base_type":"reference","usedInstances":{"eaa4af36-3eac-4f86-a625-15665bf88b99":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22.Record","label":"10 - Look Up Record➛Product Record","reference":"x_1421192_inventor_product","reference_display":"Product","type":"reference","base_type":"reference","usedInstances":{"eaa4af36-3eac-4f86-a625-15665bf88b99":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.product.sys_id","label":"Trigger - Record Created➛Product Request Record➛Product➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22":["conditions"]}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Product Request Table","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"table_name","base_type":"table_name","usedInstances":{}},{"name":"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"48a8ca15-0ade-4b1c-85f7-e30010059489":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.c42fdddd933a02100d95b4697bba1033}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"{{static.dbef5d11937a02100d95b4697bba10a7}}","label":"Analistas","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Product Request Record","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"reference","base_type":"reference","usedInstances":{"70be2201-66d6-48b3-b06c-9193ddec3a86":["record"],"985210d3-ba94-4001-b35b-9cc989bbf924":["record"],"672926f2-4092-47c5-bdc1-163ba356a623":["record"],"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["record"],"0a067b7d-ba9d-471a-941b-2941c27b0c49":["record"],"35655f59-97d7-44b9-84e5-da0a28742fff":["record"]}},{"name":"70be2201-66d6-48b3-b06c-9193ddec3a86.record","label":"1 - Update Record➛Product Request Record","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"reference","base_type":"reference","usedInstances":{"985210d3-ba94-4001-b35b-9cc989bbf924":["record"],"672926f2-4092-47c5-bdc1-163ba356a623":["record"],"0a067b7d-ba9d-471a-941b-2941c27b0c49":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>3785a2e993f282100d95b4697bba106e</master_snapshot>
         <name>Product Request Flow</name>
         <natlang/>
@@ -23,7 +23,7 @@
         <pre_compiled>false</pre_compiled>
         <remote_trigger_id>6895e2e993f282100d95b4697bba1041</remote_trigger_id>
         <run_as>user</run_as>
-        <run_with_roles/>
+        <run_with_roles>55ae55dd933a02100d95b4697bba1024,8ede1519933a02100d95b4697bba1014</run_with_roles>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7762dea193b282100d95b4697bba103e</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name>Product Request Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Inventory Management" source="x_1421192_inventor">2ef3dccd9336c2100d95b4697bba1023</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_update_name>sys_hub_flow_7762dea193b282100d95b4697bba103e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:38</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:34</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7762dea193b282100d95b4697bba103e"/>
@@ -80,14 +80,14 @@
         <identifier>7762dea193b282100d95b4697bba103e</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-15 01:14:37</sys_created_on>
-        <sys_id>e095e2e993f282100d95b4697bba1042</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-06-17 20:33:33</sys_created_on>
+        <sys_id>2c02c16a93ba86100d95b4697bba1076</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:37</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <trigger display_value="">6895e2e993f282100d95b4697bba1041</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7762dea193b282100d95b4697bba103e^sys_idNOT INe095e2e993f282100d95b4697bba1042"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7762dea193b282100d95b4697bba103e^sys_idNOT IN2c02c16a93ba86100d95b4697bba1076"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=7762dea193b282100d95b4697bba103e^sys_idNOT IN5eb292a193b282100d95b4697bba103a"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>A new product request is created.</comment>
@@ -98,10 +98,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:52:16</sys_created_on>
         <sys_id>5eb292a193b282100d95b4697bba103a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:38</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -228,14 +228,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:33</sys_created_on>
         <sys_id>9f8562e993f282100d95b4697bba10b2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:37</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -312,14 +312,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:32</sys_created_on>
         <sys_id>df8562e993f282100d95b4697bba10ae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:37</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -352,10 +352,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:57:56</sys_created_on>
         <sys_id>0504926593b282100d95b4697bba106d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>0a067b7d-ba9d-471a-941b-2941c27b0c49</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0504926593b282100d95b4697bba106d"/>
@@ -394,11 +394,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:58:42</sys_created_on>
         <sys_id>1c34de2593b282100d95b4697bba10f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-14 23:58:42</sys_updated_on>
+        <sys_updated_on>2024-06-17 18:42:38</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
+        <value>{{70be2201-66d6-48b3-b06c-9193ddec3a86.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -442,10 +442,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:54:00</sys_created_on>
         <sys_id>27139ee193b282100d95b4697bba106c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27139ee193b282100d95b4697bba106c"/>
@@ -512,11 +512,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:56:07</sys_created_on>
         <sys_id>ae931a2593b282100d95b4697bba10be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-14 23:56:07</sys_updated_on>
+        <sys_updated_on>2024-06-17 19:54:13</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyG[{{static.c42fdddd933a02100d95b4697bba1033}}]</value>
+        <value>ApprovesRejectsAnyG[{{static.c42fdddd933a02100d95b4697bba1033}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -596,10 +596,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 00:01:10</sys_created_on>
         <sys_id>54c4926593b282100d95b4697bba10a7</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>35655f59-97d7-44b9-84e5-da0a28742fff</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=54c4926593b282100d95b4697bba10a7"/>
@@ -686,10 +686,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:52:50</sys_created_on>
         <sys_id>66d21ae193b282100d95b4697bba106c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>70be2201-66d6-48b3-b06c-9193ddec3a86</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=66d21ae193b282100d95b4697bba106c"/>
@@ -776,10 +776,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 00:00:11</sys_created_on>
         <sys_id>8284966593b282100d95b4697bba10ec</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>985210d3-ba94-4001-b35b-9cc989bbf924</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8284966593b282100d95b4697bba10ec"/>
@@ -818,11 +818,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:33</sys_created_on>
         <sys_id>6b8562e993f282100d95b4697bba10dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:33</sys_updated_on>
+        <sys_updated_on>2024-06-17 18:42:38</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
+        <value>{{70be2201-66d6-48b3-b06c-9193ddec3a86.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -866,10 +866,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 00:35:34</sys_created_on>
         <sys_id>90ac9aa993b282100d95b4697bba1056</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>eaa4af36-3eac-4f86-a625-15665bf88b99</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=90ac9aa993b282100d95b4697bba1056"/>
@@ -969,10 +969,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 00:12:59</sys_created_on>
         <sys_id>a9771a6993b282100d95b4697bba10d0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>52fe4c56-ff0a-40e0-8ff5-30f36c5baf22</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a9771a6993b282100d95b4697bba10d0"/>
@@ -1033,10 +1033,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 00:02:42</sys_created_on>
         <sys_id>cf155e6593b282100d95b4697bba1093</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 02:25:50</sys_updated_on>
+        <sys_updated_by>Marcelo Aoop</sys_updated_by>
+        <sys_updated_on>2024-06-17 20:34:28</sys_updated_on>
         <ui_id>672926f2-4092-47c5-bdc1-163ba356a623</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cf155e6593b282100d95b4697bba1093"/>
@@ -1075,11 +1075,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:33</sys_created_on>
         <sys_id>e38562e993f282100d95b4697bba10e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:33</sys_updated_on>
+        <sys_updated_on>2024-06-17 18:42:38</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
+        <value>{{70be2201-66d6-48b3-b06c-9193ddec3a86.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -1133,10 +1133,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:56:15</sys_created_on>
         <sys_id>54a35a2593b282100d95b4697bba10dd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:38</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <ui_id>48a8ca15-0ade-4b1c-85f7-e30010059489</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1206,10 +1206,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-14 23:59:52</sys_created_on>
         <sys_id>6174de2593b282100d95b4697bba1077</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:38</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <ui_id>7a9c40a9-a05f-4ff4-9fdb-b4e035b2f44f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1240,10 +1240,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 00:00:56</sys_created_on>
         <sys_id>81b452a593b282100d95b4697bba1023</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:38</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <ui_id>b9905b4a-a7e2-4b20-87b6-70dc6d55239e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1317,7 +1317,7 @@
         <description>A new product request is created.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>product_request_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Product Request Record","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"reference","base_type":"reference","usedInstances":{"70be2201-66d6-48b3-b06c-9193ddec3a86":["record"],"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["record"],"0a067b7d-ba9d-471a-941b-2941c27b0c49":["record"],"985210d3-ba94-4001-b35b-9cc989bbf924":["record"],"35655f59-97d7-44b9-84e5-da0a28742fff":["record"],"672926f2-4092-47c5-bdc1-163ba356a623":["record"]},"attributes":{}},{"name":"{{static.dbef5d11937a02100d95b4697bba10a7}}","label":"Analistas","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"{{static.c42fdddd933a02100d95b4697bba1033}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"48a8ca15-0ade-4b1c-85f7-e30010059489":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Product Request Table","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.product.sys_id","label":"Trigger - Record Created➛Product Request Record➛Product➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1421192_inventor_product","column_name":"sys_id","usedInstances":{"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22":["conditions"]}},{"name":"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22.Record","label":"10 - Look Up Record➛Product Record","reference":"x_1421192_inventor_product","reference_display":"Product","type":"reference","base_type":"reference","usedInstances":{"eaa4af36-3eac-4f86-a625-15665bf88b99":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22.Record","label":"10 - Look Up Record➛Product Record","reference":"x_1421192_inventor_product","reference_display":"Product","type":"reference","base_type":"reference","usedInstances":{"eaa4af36-3eac-4f86-a625-15665bf88b99":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.product.sys_id","label":"Trigger - Record Created➛Product Request Record➛Product➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"52fe4c56-ff0a-40e0-8ff5-30f36c5baf22":["conditions"]}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Product Request Table","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"table_name","base_type":"table_name","usedInstances":{}},{"name":"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"48a8ca15-0ade-4b1c-85f7-e30010059489":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.c42fdddd933a02100d95b4697bba1033}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"{{static.dbef5d11937a02100d95b4697bba10a7}}","label":"Analistas","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["approval_conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Product Request Record","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"reference","base_type":"reference","usedInstances":{"70be2201-66d6-48b3-b06c-9193ddec3a86":["record"],"985210d3-ba94-4001-b35b-9cc989bbf924":["record"],"672926f2-4092-47c5-bdc1-163ba356a623":["record"],"3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b":["record"],"0a067b7d-ba9d-471a-941b-2941c27b0c49":["record"],"35655f59-97d7-44b9-84e5-da0a28742fff":["record"]}},{"name":"70be2201-66d6-48b3-b06c-9193ddec3a86.record","label":"1 - Update Record➛Product Request Record","reference":"x_1421192_inventor_product_request","reference_display":"Product Request","type":"reference","base_type":"reference","usedInstances":{"985210d3-ba94-4001-b35b-9cc989bbf924":["record"],"672926f2-4092-47c5-bdc1-163ba356a623":["record"],"0a067b7d-ba9d-471a-941b-2941c27b0c49":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Product Request Flow</name>
         <natlang/>
@@ -1325,7 +1325,7 @@
         <parent_flow display_value="Product Request Flow">7762dea193b282100d95b4697bba103e</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
-        <run_with_roles/>
+        <run_with_roles>55ae55dd933a02100d95b4697bba1024,8ede1519933a02100d95b4697bba1014</run_with_roles>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -1334,7 +1334,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3785a2e993f282100d95b4697bba106e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1342,7 +1342,7 @@
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=3785a2e993f282100d95b4697bba106e"/>
@@ -1357,10 +1357,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>9895a2e993f282100d95b4697bba10f1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:37</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1428,7 +1428,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1487,14 +1487,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:35</sys_created_on>
         <sys_id>8c95a2e993f282100d95b4697bba1081</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1512,7 +1512,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1571,14 +1571,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:35</sys_created_on>
         <sys_id>b785a2e993f282100d95b4697bba1070</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1611,10 +1611,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>0495a2e993f282100d95b4697bba10d7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>35655f59-97d7-44b9-84e5-da0a28742fff</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0495a2e993f282100d95b4697bba10d7"/>
@@ -1701,10 +1701,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>0895a2e993f282100d95b4697bba10c7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>0a067b7d-ba9d-471a-941b-2941c27b0c49</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0895a2e993f282100d95b4697bba10c7"/>
@@ -1743,11 +1743,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>cc95a2e993f282100d95b4697bba10c8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 18:42:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
+        <value>{{70be2201-66d6-48b3-b06c-9193ddec3a86.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -1791,10 +1791,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>1c95a2e993f282100d95b4697bba10dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>672926f2-4092-47c5-bdc1-163ba356a623</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1c95a2e993f282100d95b4697bba10dd"/>
@@ -1833,11 +1833,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>d095a2e993f282100d95b4697bba10df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 18:42:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
+        <value>{{70be2201-66d6-48b3-b06c-9193ddec3a86.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -1881,10 +1881,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>5495a2e993f282100d95b4697bba10e9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>52fe4c56-ff0a-40e0-8ff5-30f36c5baf22</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5495a2e993f282100d95b4697bba10e9"/>
@@ -1945,10 +1945,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>8895a2e993f282100d95b4697bba10cd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>985210d3-ba94-4001-b35b-9cc989bbf924</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8895a2e993f282100d95b4697bba10cd"/>
@@ -1987,11 +1987,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>4095a2e993f282100d95b4697bba10cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 18:42:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
+        <value>{{70be2201-66d6-48b3-b06c-9193ddec3a86.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
@@ -2035,10 +2035,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:35</sys_created_on>
         <sys_id>c495a2e993f282100d95b4697bba10a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:31</sys_updated_on>
         <ui_id>70be2201-66d6-48b3-b06c-9193ddec3a86</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c495a2e993f282100d95b4697bba10a9"/>
@@ -2125,10 +2125,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>c895a2e993f282100d95b4697bba10bf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>3a6044fe-1a5f-4136-8991-3e3ddbcd4b6b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c895a2e993f282100d95b4697bba10bf"/>
@@ -2195,11 +2195,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>8095a2e993f282100d95b4697bba10c2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 19:54:16</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyG[{{static.c42fdddd933a02100d95b4697bba1033}}]</value>
+        <value>ApprovesRejectsAnyG[{{static.c42fdddd933a02100d95b4697bba1033}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -2279,10 +2279,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:36</sys_created_on>
         <sys_id>d495a2e993f282100d95b4697bba10ef</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:36</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>eaa4af36-3eac-4f86-a625-15665bf88b99</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d495a2e993f282100d95b4697bba10ef"/>
@@ -2391,10 +2391,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:35</sys_created_on>
         <sys_id>4095a2e993f282100d95b4697bba109e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>7a9c40a9-a05f-4ff4-9fdb-b4e035b2f44f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2426,10 +2426,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:35</sys_created_on>
         <sys_id>c495a2e993f282100d95b4697bba1099</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>48a8ca15-0ade-4b1c-85f7-e30010059489</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2499,10 +2499,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:35</sys_created_on>
         <sys_id>cc95a2e993f282100d95b4697bba10a0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Inventory Management">2ef3dccd9336c2100d95b4697bba1023</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:35</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:32</sys_updated_on>
         <ui_id>b9905b4a-a7e2-4b20-87b6-70dc6d55239e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2572,17 +2572,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"2895e2e993f282100d95b4697bba1043","name":"plan","plan_signature":null}}</plan>
         <plan_id>7762dea193b282100d95b4697bba103e</plan_id>
-        <snapshot>1fd5b221937682100d95b4697bba10b2</snapshot>
+        <snapshot>b932896a93ba86100d95b4697bba1034</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-15 01:14:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2895e2e993f282100d95b4697bba1043</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-15 01:14:37</sys_updated_on>
+        <sys_updated_on>2024-06-17 20:33:33</sys_updated_on>
         <trigger display_value="">6895e2e993f282100d95b4697bba1041</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7762dea193b282100d95b4697bba103e"/>
